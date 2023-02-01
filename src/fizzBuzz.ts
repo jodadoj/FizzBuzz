@@ -1,4 +1,4 @@
-export function fizzBuzz(input:number=0):string{
+export function fizzBuzz(input=0):string{
     if (input<=0){
         return "";
     }
