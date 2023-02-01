@@ -2,3 +2,4 @@ node_modules
 dist
 generatedJS
 yarn-error.log
+./coverage/*
