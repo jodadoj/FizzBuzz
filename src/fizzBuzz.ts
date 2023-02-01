@@ -1,7 +1,9 @@
 export function fizzBuzz(input = 0): string {
   //if no entry or invalid range or N
   if (input <= 0 || typeof input !== 'number') {
-    console.log('Please enter a number above zero. Inputs will be rounded up.');
+    console.log(
+      'Please enter a number above zero. Inputs will be rounded down.'
+    );
     return '';
   }
   const finalResult = [];

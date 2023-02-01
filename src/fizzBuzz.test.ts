@@ -4,6 +4,7 @@ test('Do fizzBuzz.', () => {
   expect(fizzBuzz(15)).toBe(
     '1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz'
   );
+  expect(fizzBuzz(1.5)).toBe('1');
   expect(fizzBuzz(0)).toBe('');
   expect(fizzBuzz(-5)).toBe('');
   expect(fizzBuzz()).toBe('');
