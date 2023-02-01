@@ -18,10 +18,6 @@ export function fizzBuzz(input = 0): string {
       finalResult.push(result);
     }
   }
-  const lastIndex = finalResult.length - 1;
-  const lastvalue = finalResult[lastIndex].slice(0, -2);
-  console.log(lastvalue);
-  finalResult.pop();
-  finalResult.push(lastvalue);
-  return finalResult.join('');
+  const finalString = finalResult.join('');
+  return finalString.slice(0, -2);
 }
